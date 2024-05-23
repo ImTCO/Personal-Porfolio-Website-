@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="template/style/style.css">
+</head>
+<body>
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center text-center" id="welcome-section">
+        <div class="welcome-content">
+            <h1 class="display-4 text-custom animate__animated animate__fadeInDown animate__delay-1s">Welcome to My Portfolio</h1>
+            <img src="template/style/assets/photo.jpg" alt="Your Photo" class="rounded-circle mb-4 animate__animated animate__bounceInDown animate__delay-2s img-animated" style="width: 200px; height: auto;">
+            <p class="lead text-custom animate__animated animate__fadeInUp animate__delay-3s">A glimpse into my professional journey and skills.</p>
+            <a href="template/index.html" class="btn btn-custom btn-lg mt-3 animate__animated animate__zoomIn animate__delay-4s">Enter</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

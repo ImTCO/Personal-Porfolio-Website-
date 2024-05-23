@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke M. Dullasin Portfolio</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#photo">Photo</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="animate-fadeIn">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I am Luke M. Dullasin, a Web and Video Game Developer. This website showcases my background, skills, and projects. Explore to know more about me!</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="animate-fadeIn">
+        <h2>About Me</h2>
+        <div class="about-photo">
+            <img src="style/assets/formal2.jpg" alt="Your Photo">
+        </div>
+        <video controls style="width:100%; max-width:600px;">
+            <source src="style/assets/vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>I am Luke M. Dullasin, a passionate Developer with experience in both Web and Video Game Development. My journey started at College. I ensure that the job is done excellently. In my career, I have made over 20 Video games and 30 Websites.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="animate-fadeIn">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Science and Technology, Web Development - Northwest Samar State University, 2026</li>
+            <li>Diploma in Python, CSS, and C++, from DoST, 2025</li>
+            <li>Certification in Video Game and Web Design, From DoST, 2024</li>
+        </ul>
+        <p>My educational journey has been pivotal in shaping my career path. From college, I developed strong relevant skills and knowledge.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="animate-fadeIn">
+        <h2>Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency Level</th>
+            </tr>
+            <tr>
+                <td>Video Game Development</td>
+                <td>Pro</td>
+            </tr>
+            <tr>
+                <td>Web Designing</td>
+                <td>Pro</td>
+            </tr>
+            <tr>
+                <td>Database Management</td>
+                <td>Pro</td>
+            </tr>
+            <tr>
+                <td>Software Development</td>
+                <td>Pro</td>
+            </tr>
+            <tr>
+                <td>Cyber Security</td>
+                <td>Pro</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="animate-fadeIn">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing the Guitar</li>
+            <li>Playing the Piano</li>
+            <li>Learning new Languages</li>
+            <li>Drawing</li>
+            <li>Treveling</li>
+            <li>Learning Self Defense</li>
+            <li>Cooking</li>
+        </ul>
+    </section>
+
+    <!-- Photo Section -->
+    <section id="photo" class="animate-fadeIn">
+        <h2>Photo</h2>
+        <div class="photo-gallery">
+            <img src="style/assets/formal.jpg" alt="Professional Headshot">
+            <img src="style/assets/tac.jpg" alt="Professional Headshot">
+            <img src="style/assets/grad.jpg" alt="Professional Headshot">
+            <!-- Add more images as needed -->
+        </div>
+        <p>These photos represent my professional image, ready to connect with potential employers or clients.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="animate-fadeIn contact-section">
+        <h2>Contact</h2>
+        <p>You can reach me via email at <a href="mailto:lkeenway@gmail.com">lkeenway@gmail.com</a> or phone at 0916 2809 701. Follow me on <a href="https://www.youtube.com/in/I'm TCO" target="_blank">YouTube</a> for more updates.</p>
+        <!-- Contact Form -->
+        <form action="submit" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Luke M. Dullasin. All rights reserved.</p>
+    </footer>
+</body>
+</html>

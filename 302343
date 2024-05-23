@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 100px 20px 20px; /* Add top padding to account for fixed navbar */
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    position: relative;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Center and Border for About Photo */
+.about-photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-photo img {
+    border: 5px solid #333;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+/* Skills Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Hobbies List Styles */
+#hobbies ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #555;
+}
+
+/* Centered Contact Section */
+.contact-section {
+    text-align: center;
+}
+
+.contact-section p {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.contact-section form {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Photo Section Styles */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photo-gallery img {
+    border: 3px solid #333;
+    border-radius: 8px;
+    animation: border-animate 2s infinite alternate;
+}
+
+/* Keyframes for rotating border animation */
+@keyframes border-animate {
+    0% {
+        border-color: #333;
+    }
+    50% {
+        border-color: #555;
+    }
+    100% {
+        border-color: #333;
+    }
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Background styles for each section */
+#home {
+    background: url('assets/pixel.gif') no-repeat center center/cover;
+}
+
+#about {
+    background: url('assets/fall.gif') no-repeat center center/cover;
+}
+
+#education {
+    background: url('assets/school.gif') no-repeat center center/cover;
+}
+
+#skills {
+    background: url('assets/fall.gif') no-repeat center center/cover;
+}
+
+#hobbies {
+    background: url('assets/ylia.gif') no-repeat center center/cover;
+}
+
+#photo {
+    background: url('assets/fall.gif') no-repeat center center/cover;
+}
+
+#contact {
+    background: url('assets/pick.gif') no-repeat center center/cover;
+}

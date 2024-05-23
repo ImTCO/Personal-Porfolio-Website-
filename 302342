@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#welcome-section {
+    background: url('assets/sky.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.welcome-content {
+    background: rgba(255, 182, 193, 0.1); /* Lighter pink overlay for better visibility of background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.text-custom {
+    color: #8B0000; /* Dark red color for better contrast against light background */
+}
+
+.btn-custom {
+    background-color: #FF1493; /* Custom button color */
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #C71585; /* Darker shade on hover */
+}
+
+.img-animated {
+    position: relative;
+    animation: rotate-border 2s linear infinite;
+}
+
+@keyframes rotate-border {
+    0% {
+        box-shadow: 0 0 10px 5px rgba(255, 182, 193, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 20px 10px rgba(255, 182, 193, 0.9);
+    }
+    100% {
+        box-shadow: 0 0 10px 5px rgba(255, 182, 193, 0.7);
+    }
+}
